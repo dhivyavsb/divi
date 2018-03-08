@@ -4,13 +4,13 @@ int main()
 int a,b,c;
 scanf("%d%d",&a,&b);
 c=a+b;
-if(c%2==0)
+if(c%2==1)
 {
-printf("even");
+printf("odd");
 }
 else
 {
-printf("odd");
+printf("even");
 }
 return 0;
 }
